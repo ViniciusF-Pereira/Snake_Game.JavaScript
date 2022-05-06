@@ -1,0 +1,40 @@
+body {
+    height: 90vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 102, 102);
+    color: rgb(253, 253, 253);
+    font-size: 36px;
+    transition: 3s;
+}
+
+body:hover {
+    background-color: rgb(155, 151, 151);
+}
+
+.Quadrado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botao {
+    margin-top: 5%;
+}
+
+.botao button {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 37, 7);
+    color: white;
+    transition: 3s;
+}
+
+.botao button:hover {
+    cursor: pointer;
+    background-color: rgb(43, 165, 155);
+    color: white;
+}
